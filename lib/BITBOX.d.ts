@@ -18,7 +18,7 @@ import { Script } from "./Script"
 import Price from "./Price"
 import Socket from "./Socket"
 
-declare class BITBOXSDK {
+export declare class BITBOX {
   constructor(config?: any)
 
   restURL: string
@@ -41,5 +41,3 @@ declare class BITBOXSDK {
   Util: Util
   Socket: Socket
 }
-
-export default BITBOXSDK
